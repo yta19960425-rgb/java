@@ -14,7 +14,7 @@ import javax.swing.JPanel;			//
 import javax.swing.JTextArea;		//多行文字區（顯示紀錄）
 import javax.swing.JTextField;		//單行輸入框
 
-public class a05 extends JFrame implements ActionListener{
+public class gameguess extends JFrame implements ActionListener{
 	// 成員變數
 	private JButton guess; 		//猜的按鈕
 	private JTextField input;	//使用者輸入
@@ -28,7 +28,7 @@ public class a05 extends JFrame implements ActionListener{
 	// 呼叫 jframe 的建構式
 	// 設定視窗標題
 	// super 呼叫父類別
-	public a05() {
+	public gameguess() {
 		super("猜數字遊戲");
 		
 		//建立元件
@@ -103,7 +103,7 @@ public class a05 extends JFrame implements ActionListener{
 	//   main 程式進入點
 	// 只要a05() 視窗就出來了
 	public static void main(String[] args) {
-		new a05();
+		new gameguess();
 	}
 
 	// actionPerformed 按下猜會發生的事
