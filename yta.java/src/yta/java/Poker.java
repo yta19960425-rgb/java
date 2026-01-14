@@ -3,6 +3,7 @@ package yta.java;
 import java.util.Arrays;
 
 
+// 更改
 public class Poker {
 //建立52張牌，做洗牌
 //輪流發給4個玩家
